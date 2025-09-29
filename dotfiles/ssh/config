@@ -1,0 +1,11 @@
+Include /Users/shumayl.asmawi/.colima/ssh_config
+
+Host gitlab-grab
+	HostName gitlab.myteksi.net
+	User git
+	IdentityFile ~/.ssh/id_rsa
+
+Host github-personal
+	HostName github.com
+	User git
+	IdentityFile ~/.ssh/id_rsa_github_personal

@@ -1,0 +1,6 @@
+[user]
+	name = Shumayl
+	email = mshumayl@gmail.com
+[core]
+	sshCommand = ssh -i ~/.ssh/id_rsa_github_personal
+
