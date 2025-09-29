@@ -1,7 +1,7 @@
 Include /Users/shumayl.asmawi/.colima/ssh_config
 
-Host gitlab-grab
-	HostName gitlab.myteksi.net
+Host gitlab-{NO_VALUE}
+	HostName {NO_VALUE}
 	User git
 	IdentityFile ~/.ssh/id_rsa
 
