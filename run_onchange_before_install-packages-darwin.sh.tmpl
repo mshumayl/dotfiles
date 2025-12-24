@@ -16,7 +16,10 @@ if ! command -v brew &> /dev/null; then
     fi
 fi
 
+# Update Homebrew first
+brew update
+
 # Brewfile hash: {{ include "dot_Brewfile" | sha256sum }}
-brew bundle --file={{ .chezmoi.sourceDir }}/dot_Brewfile --no-lock
+brew bundle --file={{ .chezmoi.sourceDir }}/dot_Brewfile
 
 {{- end }}
