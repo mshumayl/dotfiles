@@ -13,4 +13,3 @@ brew "wget"
 
 # Applications (casks)
 cask "ghostty"
-cask "marimo"
