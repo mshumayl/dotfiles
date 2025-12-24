@@ -1,0 +1,27 @@
+
+. "$HOME/.local/bin/env"
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:/Users/s.asmawi/go/bin
+
+alias tmux="arch -arm64 tmux"
+alias hst='history | grep'
+alias vim='nvim'
+alias bim='nvim'
+alias opencode='opencode --agent plan'
+alias upx='caffeinate -d'
+
+export TMUX_TMPDIR="$HOME/.local/share/tmux"
+mkdir -p "$TMUX_TMPDIR"
+
+export ZSH="$HOME/.oh-my-zsh"
+
+ZSH_THEME="candy-custom"
+
+plugins=(
+    git
+    zsh-autosuggestions
+)
+
+source $ZSH/oh-my-zsh.sh
+
+export PATH="/Applications/Racket v8.18/bin:$PATH"

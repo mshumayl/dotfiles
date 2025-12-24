@@ -1,0 +1,16 @@
+# Brewfile - Managed by chezmoi
+# Changes to this file will trigger package installation
+
+# Core development tools
+brew "tmux"
+brew "git"
+brew "zsh"
+brew "neovim"
+brew "go"
+brew "jq"
+brew "curl"
+brew "wget"
+
+# Applications (casks)
+cask "ghostty"
+cask "marimo"

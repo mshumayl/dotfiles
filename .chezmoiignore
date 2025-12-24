@@ -1,0 +1,15 @@
+# nvim is managed by .chezmoiexternal.toml
+.config/nvim
+
+# OS files
+.DS_Store
+
+# SSH keys (never commit, only config)
+.ssh/id_*
+.ssh/known_hosts*
+.ssh/authorized_keys*
+
+# Repo files (not dotfiles)
+README.md
+LICENSE
+install.sh

@@ -1,0 +1,12 @@
+# This is Git's per-user configuration file.
+[user]
+	email = {{ .email }}
+	name = {{ .name }}
+[core]
+	excludesfile = {{ .chezmoi.homeDir }}/.gitignore_global
+	hooksPath = {{ .chezmoi.homeDir }}/.git-hooks
+[alias]
+	squash = rebase -i HEAD~
+
+[includeIf "gitdir:~/shumdev/"]
+	path = ~/.gitconfig-personal

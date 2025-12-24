@@ -1,0 +1,10 @@
+.DS_Store
+.cursor/
+
+.agents/
+.copilot/
+/bin/
+.vscode/
+.gitconfig
+launch.json
+.shumayl/
